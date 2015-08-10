@@ -47,6 +47,7 @@ Added:
 - Exclusion of parent-child pages is now possible
 - Added a Help and Updates menu for more information
 - Dynamic strings are now translatable with WPML string translations
+- Update Notifications on the plugins menu
 
 Changed:
 - Major query optimizations for better performance
