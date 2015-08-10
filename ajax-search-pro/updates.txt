@@ -10,12 +10,15 @@ VERSION_STRING: 4.5
 something
 something else
 another test
+==
 
 ==3.5==
 stuff
 another stuff
 stuff stuff
+==
 
 ==3.1==
 swiggity swaggity
 stiffy stuffy
+==
