@@ -1,24 +1,181 @@
-VERSION: 4059
-VERSION_STRING: 4.5
+VERSION: 4500
+VERSION_STRING: 4.50
 
 ===KNOWLEDGE_BASE===
-[wp-dreams.com](http://wp-dreams.com)
-[Ajax Search Pro](http://demo.wp-dreams.com/?product=ajax_search_pro)
+[Updating from older versions](https://wp-dreams.com/knowledge-base/updating-from-older-versions/)
+[The images are not showing, what is wrong?](https://wp-dreams.com/knowledge-base/the-images-are-not-showing-what-is-wrong/)
+[Advanced Custom Fields Image field as image](https://wp-dreams.com/knowledge-base/advanced-custom-fields-image-field-as-image/)
+[Some images are broken, what to do?](https://wp-dreams.com/knowledge-base/some-images-are-broken-what-to-do/)
+[Style changes does not apply after saving](https://wp-dreams.com/knowledge-base/style-changes-does-not-apply-after-saving/)
+[The layout and theme is not changing after saving](https://wp-dreams.com/knowledge-base/the-layout-and-theme-is-not-changing-after-saving/)
+[Some elements look different (weird margins, paddings, width, etc..), what to do?](https://wp-dreams.com/knowledge-base/some-elements-look-different-weird-margins-paddings-width-etc-what-to-do/)
+[When I type in something, the search wheel is spinning, but nothing happens. Why?](https://wp-dreams.com/knowledge-base/when-i-type-in-something-the-search-wheel-is-spinning-but-nothing-happens-why/)
+[Tiny input box on certain page positions](https://wp-dreams.com/knowledge-base/tiny-input-box-on-certain-page-positions/)
+[No results for some keywords](https://wp-dreams.com/knowledge-base/no-results-for-some-keywords/)
+[Demo setup](https://wp-dreams.com/knowledge-base/demo-setup/)
+[How to remove ‘Variation #xyz of’ from product variation title](https://wp-dreams.com/knowledge-base/how-to-remove-variation-xyz-of-from-product-variation-title/)
+[How to change the results URL to something else?](https://wp-dreams.com/knowledge-base/how-to-change-the-results-url-to-something-else/)
+[Filtering WooCommerce hidden catalog products](https://wp-dreams.com/knowledge-base/filtering-woocommerce-hidden-catalog-products/)
+[Two column search setup](https://wp-dreams.com/knowledge-base/two-column-search-setup/)
+[How to add “Try these” keywords under the search as seen on the demo?](https://wp-dreams.com/knowledge-base/how-to-add-try-these-keywords-under-the-search-as-seen-on-the-demo/)
+[Showing the category titles in the result title](https://wp-dreams.com/knowledge-base/showing-the-category-titles-in-the-result-title/)
+[Showing the post type name in result title](https://wp-dreams.com/knowledge-base/showing-the-post-type-name-in-post-title/)
+[Numbering the results](https://wp-dreams.com/knowledge-base/numbering-the-results/)
+[Search logic explained](https://wp-dreams.com/knowledge-base/search-logic-explained/)
+[Result Templating](https://wp-dreams.com/knowledge-base/result-templating/)
 
 ===CHANGELOG===
+==4.5==
+2015.08.11
+Added:
+- A new feature and engine: Index table search engine
+- User search is now possible
+- Attachment search is now possible
+- Search text button
+- Back-end category parent,child chooser
+- Input focuses on compact mode opening
+- Keyword suggestions and autocomplete sources: taxonomy terms and CPM
+- WooCommerce term image integration
+- Hidden input field type for custom field selectors
+- Exclusion of parent-child pages is now possible
+- Added a Help and Updates menu for more information
+- Dynamic strings are now translatable with WPML string translations
+
+Changed:
+- Major query optimizations for better performance
+- Adjustable author field for CPT results
+- Input box converted to flex display
+- Google autocomplete ajax migrated to JS
+- Custom field and Category selector output limit increased
+- WPML respects term translations
+- CSS files re-ordered
+- Some CSS classes changed with prefixes
+- Optimized some theme line heights
+- JS resize and scroll event optimizations
+- Better attempt on closing unclosed HTML tags in content
+- Result images are displayed as background images for better compatibility
+- Select item colorization and width changes
+- On multisite it is now possible to select all blogs with a checkbox
+
+Fixed:
+- Compact mode scrolling fixes
+- WooCommerce product variation URL fix
+- File system api instead of furl_open
+- Stylesheet fixes
+- Back-end JS optimizations
+- Better input escaping
+- Margin, padding override fixes
+- Vertical results box height calculation fix
+- WMPL compatibility with custom ajax handler
+- Keyboard navigation fix for vertical results
+- Fix a script exclusion for IE<9
+- Multiselect custom post type selector fix
+- A rev-slider compatibility bugfix
+- Non-ajax pagination fix
+- Widget compatibility for WP4.3
+
+Removed:
+- Fulltext search is replaced with Index Table engine
+==
+
 ==4.0==
-something
-something else
-another test
+2015.03.18 - 4.0 - Major update
+
+Added:
+ - Visual composer addon included
+ - New menu: Export/Import settings - you can export all your search instances, or individual instance settings
+ - New menu: Performance Tracking - track the search performance on your dashboard
+ - New Shortcode: Two column shortcode - A search and a result box next to each other
+ - Compact Layout Mode - on fixed, absolute and static page positions
+ - Full RTL support
+ - Result templating is now possible - each result type has it's own template file
+ - More options with Keyword suggestions and Autocomplete (post titles, tags)
+ - It is now possible to rename/duplicate search instances
+ - Better control over Javascript and CSS compatibility and size
+ - Excluding categories and terms from category results is now possible
+ - Search can be triggered on a Facet change (checkbox, slider, radio button...)
+ - Individual result groups (terms, posts, buddypress results, etc..) can be ordered now.
+ - Query Compatibility Options - You can fine tune the search query to force application level Unicode and UTF8 searches
+ - Results now can be redirected to a new browser tab
+ 
+Changed:
+ - Vertical results now support automatic height and the result image is surrounded with the description
+ - Relevance is now less performance dependent
+ - The ajax request now returns plain HTML instead of JSON (because of templating)
+ 
+Fixed
+ - A possible security issue on the backend
+ - Massive CSS compatibility fixes
+ - ABSPATH variable removed
 ==
 
 ==3.5==
-stuff
-another stuff
-stuff stuff
+2014.11.27 - 3.5 - Major update
+
+Added:
+ - Priority settings -> prioritizing results is now possible
+ - Custom Frontend Fields -> Creation of Radio buttons, Dropboxes, Checkboxes, Range sliders connected with custom fields
+ - Advanced Ajax Page Loader plugin compatibility options
+ - Suggested keywords -> "Try these:" as seen on the demo
+ 
+Changed
+ - CSS files for search instances had been removed and replaced with a concatenated single CSS file
+ - TimThumb removed and BFI image class had been added as main image handler
+ 
+Fixed
+ - CSS incompatibilities
+ - Known JS bugs
+ - Isotopic layout is now more stable
+==
+
+==3.2==
+2014.10.07 - 3.2 - Major update
+
+Added:
+ - It is possible to change the search logic now: OR, OR with exact words, AND, AND with exact words
+ - Categories and taxonomies can be returned as results
+ 
+Changed
+ - In Old internet explorer versions the search falls back to the default wordpress search box
+ - Fixed a bug with the cache
+ - Fixed a bug with the widget
 ==
 
 ==3.1==
-swiggity swaggity
-stiffy stuffy
+2014.09.19 - 3.1 - Minor update
+
+Added:
+ - The plugin can now override (replace) the default WordPress search results on the results page!
+ - BuddyPress support: Search in groups, users and activities
+ - The 'More results..' and the default results URL is now customizable
+ 
+Changed
+ - Polaroid results fix for new chrome browsers
+ - Custom ajax handler is now disabled by default due to some incompatibilities
+ - The title search relevance has changed a bit
+ - Fulltext search is disabled by default
+ - Buddypress bugs fixed
+==
+
+==3.0==
+2014.08.04 - 3.0 - Major update
+
+Added:
+ - New latout type: Isotopic
+ - 2 New theme groups: Underline and Simple
+ - New retina ready SVG icons
+ - WPML support
+ - Google Analytics Integration module
+ - Brand new backend
+ - Scroll-to-results option
+ - Keyboard navigation for vertical results
+ - Multiple instances of search boxes are now possible
+ - Better preview
+ - Better compatibility module
+ 
+Changed:
+ - Shortcode buttons on the Post editor
+ - Better image options and image handling
+ - Smaller CSS files
+ - Better javascript compatibility
 ==
