@@ -1,6 +1,9 @@
 VERSION: 4500
 VERSION_STRING: 4.50
 
+===SUPPORT===
+The support is offline from aug. 12. 2015 - aug. 21. 2015
+
 ===KNOWLEDGE_BASE===
 [Updating from older versions](https://wp-dreams.com/knowledge-base/updating-from-older-versions/)
 [The images are not showing, what is wrong?](https://wp-dreams.com/knowledge-base/the-images-are-not-showing-what-is-wrong/)
