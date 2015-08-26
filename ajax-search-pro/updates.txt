@@ -1,12 +1,12 @@
-VERSION: 4500
-VERSION_STRING: 4.5
+VERSION: 4510
+VERSION_STRING: 4.5.1
 REQUIRES: 3.5
 TESTED: 4.3
-DOWNLOADED: 2200
+DOWNLOADED: 2250
 LAST_UPDATED: 2015-08-11
 
-===SUPPORT===
-The support is OFFLINE from aug. 12. 2015 - aug. 21. 2015
+---SUPPORT===
+No message.
 
 ===KNOWLEDGE_BASE===
 [Updating from older versions](https://wp-dreams.com/knowledge-base/updating-from-older-versions/)
@@ -32,6 +32,22 @@ The support is OFFLINE from aug. 12. 2015 - aug. 21. 2015
 [Result Templating](https://wp-dreams.com/knowledge-base/result-templating/)
 
 ===CHANGELOG===
+==4.5.1==
+2015.08.26
+Added:
+- Tags as results
+- Affected post number for tag results
+
+Fixed:
+- Visual composer bugfix
+- FF and IE js bugfix
+- Show more link bugfix
+- Isotopic layout blur fix
+
+Changed:
+- Script and style trimming from results
+==
+
 ==4.5==
 2015.08.11
 Added:
