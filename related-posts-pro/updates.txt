@@ -12,6 +12,17 @@ No message.
 [Performance Troubleshooting](https://wp-dreams.com/knowledge-base/rpp-performance-troubleshooting/)
 
 ===CHANGELOG===
+==1.3==
+Added
+- Updates and Help menu
+- Update notifications
+
+Fixed
+- Term exclusions now working
+- A meta box error fix
+- An isotope image layout fix
+==
+
 ==1.1==
 Added
 - Performance tracker
