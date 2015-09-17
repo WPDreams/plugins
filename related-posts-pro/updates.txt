@@ -1,1 +1,52 @@
+VERSION: 1300
+VERSION_STRING: 1.3
+REQUIRES: 3.5
+TESTED: 4.3
+DOWNLOADED: 250
+LAST_UPDATED: 2015-09-17
 
+---SUPPORT===
+No message.
+
+===KNOWLEDGE_BASE===
+[Performance Troubleshooting](https://wp-dreams.com/knowledge-base/rpp-performance-troubleshooting/)
+
+===CHANGELOG===
+==1.1==
+Added
+- Performance tracker
+- Blogselect function rework
+- Custom content ajax fix + multisite support
+
+Changed
+- Isotope item width is now set to 25%
+- Transparent themes are now full width
+
+Fixed
+- IE crash fix
+- BfiThumb image size fix
+- Preview fix
+- Typo fix in hooks.php
+- Fixed a bug where override would get the content from post source
+- Terms logic is different now in shortcodes.php
+- Tags are now filtered out without notice in rpp.shortcode.php
+==
+
+==1.0==
+2014.07.01
+Added
+- Look in posts, pages, custom post types
+- Look in title, content, excerpt, custom fields
+- Smart image creation with TimThumb or built in image parser
+- Custom content creator
+- Shortcode available for posts and themes
+- Auto placement below/above content
+- Excluding posts,pages
+- Excluding categories
+- Excluding words in a stop-file
+- 150+ theme options, 65 pre-defined themes: neo, metro, minimal, artsy, magazine, pinteresting
+- 3 layouts: Isotopic (based on jQuery isotope), Slick and Slide and Transitioning (based on Codrops transitions)
+- Compatibility levels
+- Built in caching options
+- Hooks available
+==
