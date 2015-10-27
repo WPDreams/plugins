@@ -1,8 +1,8 @@
-VERSION: 4530
-VERSION_STRING: 4.5.3
+VERSION: 4540
+VERSION_STRING: 4.5.4
 REQUIRES: 3.5
 TESTED: 4.3
-DOWNLOADED: 2250
+DOWNLOADED: 2500
 LAST_UPDATED: 2015-09-28
 
 ---SUPPORT===
@@ -32,6 +32,31 @@ No message.
 [Result Templating](https://wp-dreams.com/knowledge-base/result-templating/)
 
 ===CHANGELOG===
+==4.5.4==
+2015.10.27
+Added:
+- Theme Loader added
+- Text type custom field added to custom field selectors
+- Isotopic navigation: supports large number of pages, slides back-forth
+- Index table engine CRON possibility
+- Result template files can be stored in the theme folder
+
+Fixed:
+- Index table: timeout fix, WPML fix, reversed term fix
+- Preview mode fix
+- A typo fixed in results_layout.php: user_login
+- Global multibyte (mbstring) function fixes
+- Results override function fix
+- OR checkbox logic fix
+- Keyword suggestion fixes: multisite support, wrong autocomplete in some cases
+- Horizontal result fix: no results text incorrectly appearing
+
+Changed:
+- Vertical results: Date and author are hidden by default now
+- Vertical results: Navigation fix, return button redirects to result
+- Index table improvements: does not store indexed documents in an array
+==
+
 ==4.5.3==
 2015.09.28
 Added:
