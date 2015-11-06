@@ -1,9 +1,9 @@
-VERSION: 4540
-VERSION_STRING: 4.5.4
+VERSION: 4550
+VERSION_STRING: 4.5.5
 REQUIRES: 3.5
 TESTED: 4.3
 DOWNLOADED: 2500
-LAST_UPDATED: 2015-09-28
+LAST_UPDATED: 2015-11-05
 
 ---SUPPORT===
 No message.
@@ -32,6 +32,26 @@ No message.
 [Result Templating](https://wp-dreams.com/knowledge-base/result-templating/)
 
 ===CHANGELOG===
+==4.5.5==
+2015.11.05
+Added:
+- Index table continue button and small stats snippet
+- Index table specific relevance options
+- Customizable date format
+- Added a filter to shortcodes taxonomy get_terms() call
+- New image source: post format images
+
+Fixed:
+- Index table author related bug fix
+- Fixed placeholder alignment
+
+Changed:
+- Removed polaroid script classie and modernizr dependency
+- Escaping method changes
+- Index table search apostrophe removal
+- Index table adjusted first word relevance
+==
+
 ==4.5.4==
 2015.10.27
 Added:
