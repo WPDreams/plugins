@@ -1,9 +1,9 @@
-VERSION: 4550
-VERSION_STRING: 4.5.5
+VERSION: 4605
+VERSION_STRING: 4.6.0
 REQUIRES: 3.5
 TESTED: 4.3
-DOWNLOADED: 2500
-LAST_UPDATED: 2015-11-05
+DOWNLOADED: 2650
+LAST_UPDATED: 2015-11-27
 
 ---SUPPORT===
 No message.
@@ -32,6 +32,28 @@ No message.
 [Result Templating](https://wp-dreams.com/knowledge-base/result-templating/)
 
 ===CHANGELOG===
+==4.6.0==
+2015.11.27
+Added:
+- Primary, Secondary sorting option added
+- Conditional CSS loader script added (experimental)
+- More animation options on Advanced Options panel
+- An adjustable background overlay for Compact mode (fixed layout)
+
+Fixed:
+- Missing translation ID fixes for both engines
+- Placeholder text position fix
+- Input margin, padding fixes
+- Incorrect top calculation added for relative positioned body elements
+- Override default WP results group fix, and post_types array fix
+
+Changed:
+- Theme parser, moved to JSON data
+- SVG spinners removed due to deprication, NEW CSS3 spinners
+- Animations re-worked to full CSS3 with fallback
+- Animations CSS file is only used for dynamic CSS parser, reducing size over 90 per cent
+==
+
 ==4.5.5==
 2015.11.05
 Added:
