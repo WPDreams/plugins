@@ -1,9 +1,9 @@
-VERSION: 1300
-VERSION_STRING: 1.3
+VERSION: 1355
+VERSION_STRING: 1.4
 REQUIRES: 3.5
-TESTED: 4.3
+TESTED: 4.4
 DOWNLOADED: 250
-LAST_UPDATED: 2015-09-17
+LAST_UPDATED: 2016-01-04
 
 ---SUPPORT===
 No message.
@@ -12,6 +12,15 @@ No message.
 [Performance Troubleshooting](https://wp-dreams.com/knowledge-base/rpp-performance-troubleshooting/)
 
 ===CHANGELOG===
+==1.4==
+Added
+- Image cropping option
+
+Fixed
+- Old queries were replaced with better ones
+- Faster layout rendering
+==
+
 ==1.3==
 Added
 - Updates and Help menu
