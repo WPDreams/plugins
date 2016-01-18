@@ -1,9 +1,9 @@
-VERSION: 4605
-VERSION_STRING: 4.6.0
+VERSION: 4701
+VERSION_STRING: 4.7.0
 REQUIRES: 3.5
-TESTED: 4.3
-DOWNLOADED: 2650
-LAST_UPDATED: 2015-11-27
+TESTED: 4.4
+DOWNLOADED: 2850
+LAST_UPDATED: 2016-01-15
 
 ---SUPPORT===
 No message.
@@ -32,6 +32,38 @@ No message.
 [Result Templating](https://wp-dreams.com/knowledge-base/result-templating/)
 
 ===CHANGELOG===
+==4.7.0==
+2016.01.15
+Added:
+- Filtering by post tags is possible
+- It is possible to replace the default theme search now
+- Override now returns any type of result
+- BuddyPress XProfile fields search
+- Keyword exceptions menu on Advanced Options
+- Isotope layout gutter between items is adjustable now
+- Backend Options search added
+- Image Display mode is now changeable
+- Custom field filters with empty values are discarded now correctly
+
+Fixed:
+- Isotopic calculation fix for no-image items
+- "Try this" CSS fixed
+- Issue with category filter default values
+- Removed arbitrary calculations with horizontal results
+- Keyword highlighting fixed
+- More results link fix
+- A Visual Composer ajax bugfix
+- Fixed missing values when importing search settings
+- Context display performance fix
+
+Changed:
+- UI fix when facet change is activated, the settings won't close
+- Horizontal results are much more appealing
+- Custom field filters use much less data for communication
+- Default options moved to globals
+- Back-end default loading performance enhancement
+==
+
 ==4.6.0==
 2015.11.27
 Added:
