@@ -1,12 +1,12 @@
-VERSION: 4701
-VERSION_STRING: 4.7.0
+VERSION: 4800
+VERSION_STRING: 4.8.0
 REQUIRES: 3.5
 TESTED: 4.4
-DOWNLOADED: 2850
-LAST_UPDATED: 2016-01-15
+DOWNLOADED: 3000
+LAST_UPDATED: 2016-02-22
 
 ---SUPPORT===
-No message.
+Support will be closed from 24. to 29. of february, 2016.
 
 ===KNOWLEDGE_BASE===
 [Updating from older versions](https://wp-dreams.com/knowledge-base/updating-from-older-versions/)
@@ -32,6 +32,35 @@ No message.
 [Result Templating](https://wp-dreams.com/knowledge-base/result-templating/)
 
 ===CHANGELOG===
+==4.8.0==
+2016.02.22
+Added:
+- Empty search bar is supported (setting 0 character triggering)
+- It is possible to set column count and width for front-end settings boxes
+- Post date and custom field (ACF) date filtering is now possible
+- Excluding or including posts by date was added
+- The loader can be chosen to be displayed in the results box
+- Auto-poulating search results on page loading is now possible
+- Hiding the search bar and displaying settings only is now possible
+- An ajax page change detection script was implemented
+
+Fixed:
+- Term filtering related issue, when all terms selected, did not display CPM from other categories, even though they are not excluded
+- Empty link issues on "more results" link
+- Font importing issues fixed
+- An empty border fix for isotopic results
+- A category grouping bug fix
+- Download Monitor plugin compatibility fix
+- A scrollbar issue fix on front-end selectors
+- Fixed a bug with user roles exclusions
+
+Changed:
+- Complete re-work of the core files, into a much better and safer structure.
+- A better method for processing hidden custom fields
+- Keyword suggestions now check substrings on no matches
+- It is now possible to create multiple custom field filters for the same custom field
+==
+
 ==4.7.0==
 2016.01.15
 Added:
