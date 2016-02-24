@@ -1,5 +1,5 @@
-VERSION: 4800
-VERSION_STRING: 4.8.0
+VERSION: 4810
+VERSION_STRING: 4.8.1
 REQUIRES: 3.5
 TESTED: 4.4
 DOWNLOADED: 3000
@@ -32,6 +32,12 @@ Support will be closed from 24. to 29. of february, 2016.
 [Result Templating](https://wp-dreams.com/knowledge-base/result-templating/)
 
 ===CHANGELOG===
+==4.8.1==
+2016.02.24
+Fixed:
+- Category exclusion and image related issue
+==
+
 ==4.8.0==
 2016.02.22
 Added:
