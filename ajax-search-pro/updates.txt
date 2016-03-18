@@ -1,12 +1,11 @@
-VERSION: 4810
-VERSION_STRING: 4.8.1
+VERSION: 4820
+VERSION_STRING: 4.8.2
 REQUIRES: 3.5
 TESTED: 4.4
-DOWNLOADED: 3000
-LAST_UPDATED: 2016-02-22
+DOWNLOADED: 3100
+LAST_UPDATED: 2016-03-17
 
 ---SUPPORT===
-Support will be closed from 24. to 29. of february, 2016.
 
 ===KNOWLEDGE_BASE===
 [Updating from older versions](https://wp-dreams.com/knowledge-base/updating-from-older-versions/)
@@ -32,6 +31,29 @@ Support will be closed from 24. to 29. of february, 2016.
 [Result Templating](https://wp-dreams.com/knowledge-base/result-templating/)
 
 ===CHANGELOG===
+==4.8.2==
+2016.03.17
+Added:
+- Automatic plugin updates!
+- New mobile related options
+- A meta box to adjust suggested phrases per post basis
+- Memorizing selected front-end options when doing a non-ajax search
+- Switchable srcript initialization method
+- Mobile swipe support for Isotopic and Polaroid layout for paging
+
+Fixed:
+- Index table issues: better word boundary detection, custom field indexing problems, ordering problems, WooCommerce product variation indexing
+- Custom field filtering issues when using the AND logic between fields
+- Auto populate bugfixes
+- Better special character handling and search
+- Image detection fixes regarding custom fields
+
+Changed:
+- Removed deprecated functions
+- Removed unused options
+- Fixed file writing detection 
+==
+
 ==4.8.1==
 2016.02.24
 Fixed:
