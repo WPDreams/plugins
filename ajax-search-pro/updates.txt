@@ -1,9 +1,9 @@
-VERSION: 4820
-VERSION_STRING: 4.8.2
+VERSION: 4830
+VERSION_STRING: 4.8.3
 REQUIRES: 3.5
 TESTED: 4.4
 DOWNLOADED: 3100
-LAST_UPDATED: 2016-03-17
+LAST_UPDATED: 2016-03-24
 
 ---SUPPORT===
 
@@ -31,6 +31,20 @@ LAST_UPDATED: 2016-03-17
 [Result Templating](https://wp-dreams.com/knowledge-base/result-templating/)
 
 ===CHANGELOG===
+==4.8.3==
+2016.03.24
+Added:
+- Search in post IDs is possible
+- Autocomplete for mobile is adjustable
+
+Fixed:
+- An issue with mobile detection and handling
+- Taxonomy selectors now allow private taxonomies
+- CSS permission related issue fixes
+- Search options memorization across paginated results
+- Header already sent error fix
+==
+
 ==4.8.2==
 2016.03.17
 Added:
