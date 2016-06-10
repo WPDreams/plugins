@@ -1,6 +1,5 @@
 <?php
-function dms_hosts_list()
-{
+function dms_hosts_list() {
     $hosts = array(
         '1-clickshare.com' => 'abuse@hetzner.de',
         '180upload.com' => 'contact@180upload.com',
