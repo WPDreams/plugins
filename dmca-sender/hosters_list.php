@@ -430,7 +430,8 @@ function dms_hosts_list() {
         'clicknupload.link' => 'clicknuploadteam@gmail.com',
         'failiem.lv' => 'support@failiem.lv',
         'files.fm' => 'support@files.fm',
-        'yadi.sk' => 'abuse@yandex.com'
+        'yadi.sk' => 'abuse@yandex.com',
+        'zofile.com' => 'dmca@zofile.com'
     );
     
     return $hosts;
