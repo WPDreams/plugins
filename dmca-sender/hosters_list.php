@@ -429,7 +429,8 @@ function dms_hosts_list() {
         'pcloud.com' => 'abuse@pcloud.com',
         'clicknupload.link' => 'clicknuploadteam@gmail.com',
         'failiem.lv' => 'support@failiem.lv',
-        'files.fm' => 'support@files.fm'
+        'files.fm' => 'support@files.fm',
+        'yadi.sk' => 'abuse@yandex.com'
     );
     
     return $hosts;
