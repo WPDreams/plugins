@@ -211,7 +211,8 @@ function dms_hosts_list() {
         'jumbofiles.com' => 'abuse@jumbofiles.com',
         'jumbofiles.org' => 'dmca@jumbofiles.org',
         'junocloud.me' => 'abuse@junocloud.me',
-        'k2s.cc' => 'abuse@Keep2Share.cc',
+        'k2s.cc' => 'abuse.manager@keep2share.com ',
+        'keep2share.cc' => 'abuse.manager@keep2share.com ',
         'kickassgfx.net' => 'abuse@godaddy.com',
         'kiwi6.com' => 'dmca@kiwi6.com',
         'lab-web.net' => 'abuse@hetzner.de',
@@ -431,7 +432,17 @@ function dms_hosts_list() {
         'failiem.lv' => 'support@failiem.lv',
         'files.fm' => 'support@files.fm',
         'yadi.sk' => 'abuse@yandex.com',
-        'zofile.com' => 'dmca@zofile.com'
+        'zofile.com' => 'dmca@zofile.com',
+        'bytewhale.com' => 'support@bytewhale.com',
+        'rgho.st' => 'abuser@rgho.st',
+        'tezfiles.com' => 'abuse@tezfiles.com',
+        'sharehost.eu' => 'abuse@sharehost.eu',
+        'mexashare.com' => 'DMCA@MexaShare.com',
+        'faststore.org' => 'dmca@faststore.org',
+        'dailyuploads.net' => 'support@dailyuploads.net',
+        'themeforestmafia.com' => 'admin@themeforestmafia.com',
+        'dropjiffy.com' => 'hello@dropjiffy.com',
+        'oboom.com' => 'admin@oboom.com'
     );
     
     return $hosts;
