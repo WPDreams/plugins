@@ -1,9 +1,9 @@
-VERSION: 1355
-VERSION_STRING: 1.4
+VERSION: 1502
+VERSION_STRING: 1.5
 REQUIRES: 3.5
 TESTED: 4.4
 DOWNLOADED: 250
-LAST_UPDATED: 2016-01-04
+LAST_UPDATED: 2016-11-04
 
 ---SUPPORT===
 No message.
@@ -12,6 +12,21 @@ No message.
 [Performance Troubleshooting](https://wp-dreams.com/knowledge-base/rpp-performance-troubleshooting/)
 
 ===CHANGELOG===
+==1.5==
+Added
+- Copying an RPP isntance is now possible
+- Excluding plugin on certain pages is now possible
+- Image ALT text now appears if set on featured image sources
+
+Fixed
+- Custom content override error fix
+- Override content ordering fix
+- Hook fixes for detecting home and single pages
+- Custom override filter fixes
+- Filter options clarified more
+- Minor error fixes on front-end
+==
+
 ==1.4==
 Added
 - Image cropping option
